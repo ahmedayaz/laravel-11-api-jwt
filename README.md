@@ -12,8 +12,13 @@ POST /api/refresh → Refresh token
 
 
 GET    api/users          -> index
+
 POST   api/users          -> store
+
 GET    api/users/{user}   -> show
+
 PUT    api/users/{user}   -> update
+
 PATCH  api/users/{user}   -> update
+
 DELETE api/users/{user}   -> destroy
